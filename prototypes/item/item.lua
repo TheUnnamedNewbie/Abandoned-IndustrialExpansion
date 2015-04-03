@@ -12,7 +12,8 @@ data:extend(
 		type = "item",
 		name = "aluminium-bar",
 		icon = "__IndustrialExpansion__/graphics/icons/aluminium-bar.png",
-		flag = {"goes-to-main-inventory"},
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
 		order = "f[aluminium-bar]",
 		stack_size = 50
 	}

@@ -11,7 +11,7 @@ data:extend(
       hardness = 0.9,
       mining_particle = "copper-ore-particle",
       mining_time = 2,
-      result = "copper-ore"
+      result = "bauxite-ore"
     },
     collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},

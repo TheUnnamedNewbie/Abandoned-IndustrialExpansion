@@ -2,7 +2,7 @@ data:extend(
 {
 	{
 	type = "resource",
-    name = "bauxite",
+    name = "bauxite-ore",
     icon = "__IndustrialExpansion__/graphics/icons/bauxite-ore.png",
     flags = {"placeable-neutral"},
     order="a-b-a",
@@ -10,7 +10,7 @@ data:extend(
     {
       hardness = 0.9,
       mining_particle = "copper-ore-particle",
-      mining_time = 2,
+      mining_time = 7,
       result = "bauxite-ore"
     },
     collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},

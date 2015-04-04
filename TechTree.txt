@@ -1,0 +1,47 @@
+Tech Trees
+
+	Recipes:
+
+		Pulveriser - 2 inputs three outputs. One input is always water:
+
+			Bauxite ore + water -> Bauxite dust + 2 Iron dust
+			Stone + Water -> Salt, Lime, Sand
+			Coal + water -> graphite sludge
+
+		Chemical Plant
+
+			Salt + water -> Chloride (Cl2) + Sodium (2Na)  --- Could in time turn this into a downs cell.
+			Sodium + Water -> NaOH + H2
+			H2 + Cl2 -> HCl
+			Sodium Alumate + Al(OH)3 + Water -> Aluminium Hydroxide
+			
+	
+
+		Vacume oven/Rotary kiln - one (maybe two?) items together with petroleum gas as fuel -- very long production time but 
+			      high production amount per cycle
+			
+			Coal + petroleum gas -> Cokes
+			Lime + petroleum gas -> Cement
+			Wood + petroleum gas -> Coal
+			Aluminium Hydroxide + petroleum gas -> Alumina
+		
+		Mixer
+
+			Cement + sand + water + Stone -> concrete
+			Bauxite dust + NaOH + Lime -> Sodium Alumate
+
+		Assembler
+			
+			Steel -> rebar
+			Rebar + concrete -> Concrete wall
+
+
+		Furnace 
+			
+			Graphite sludg -> graphite bar
+
+		Assembler
+		
+			Graphite bar + Ceramic + coke rods -> Hall-Heroult reaction chamber
+
+

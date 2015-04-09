@@ -6,7 +6,7 @@ require("prototypes.recipe.assembler-recipe")
 require("prototypes.recipe.recipe")
 require("prototypes.recipe.smeltingRecipe")
 require("prototypes.categories.recipe-category")
-
+require("prototypes.recipe.mixer-recipe")
 require("prototypes.recipe.chemical-recipe")
 require("prototypes.recipe.pulveriser-recipe")
 

@@ -1,0 +1,35 @@
+Hullo thar!
+copy everything from "/c" and onwards,
+after that execute your preferred function by preceding it with "/c" in the Lua console
+I suggest "/c IEall()"
+
+/c 
+
+IEresources = function() 
+	game.player.insert{name="bauxite-ore", count=100}; 
+	game.player.insert{name="bauxite-dust", count=100}; 
+	game.player.insert{name="iron-dust", count=100}; 
+	game.player.insert{name="salt", count=100}; 
+	game.player.insert{name="lime", count=100}; 
+	game.player.insert{name="sand", count=100}; 
+	game.player.insert{name="cokes", count=100}; 
+	game.player.insert{name="cement", count=100}; 
+	game.player.insert{name="alumina", count=100}; 
+	game.player.insert{name="rebar", count=100}; 
+	game.player.insert{name="graphite-bar", count=100}; 
+	game.player.insert{name="sodium", count=100}; 
+	game.player.insert{name="silicon", count=100}; 
+	game.player.insert{name="silicon-carbide", count=100}; 
+	game.player.insert{name="aluminium-hydroxide", count=50}; 
+	game.player.insert{name="aluminium-bar", count=50}; 
+end; 
+
+IEitems = function() 
+	game.player.insert{name="pulverizer", count=10}; 
+	game.player.insert{name="concrete-wall", count=50}; 
+end; 
+
+IEall = function() 
+	IEresources(); 
+	IEitems(); 
+end

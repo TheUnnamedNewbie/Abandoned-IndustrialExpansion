@@ -112,6 +112,14 @@ data:extend(
 		flags = "{goes-to-main-inventory}",
 		order = "f[silicon-carbide]",
 		stack_size = 100
+	},{
+		type = "item",
+		name = "aluminium-hydroxide",
+		icon = "__IndustrialExpansion__/graphics/icons/aluminium-bar.png",
+    	flags = {"goes-to-main-inventory"},
+    	subgroup = "raw-material",
+		order = "f[aluminium-hydroxide]",
+		stack_size = 100
 	},
 
 	{

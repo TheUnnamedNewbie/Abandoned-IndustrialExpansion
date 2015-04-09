@@ -14,17 +14,16 @@ data:extend(
   },
   {
     type = "recipe",
-    category = "crafting",
+    category = "advanced-crafting",
     name = "concrete-wall",
     enabled = "true",
     energy_required = 10,
     ingredients =
     {
       {"rebar", 2},
-      {"concrete", 5}
+      {type="fluid", name="concrete", amount=5}
     },
     result = "rebar"
-  },
-
+  }
 }
 )

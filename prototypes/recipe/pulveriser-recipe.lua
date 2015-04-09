@@ -3,51 +3,53 @@ data:extend(
   {
     type = "recipe",
     name = "pulverise-bauxite",
-    category = "pulverising",
+    category = "crafting-with-fluid",
     enabled = "true",
     energy_required = 400,
     ingredients =
     {
-      {name="bauxite-ore", amount=1},
+      {type="item", name="bauxite-ore", amount=1},
       {type="fluid", name="water", amount=5}
     },
     results=
     {
-      {name="bauxite-dust", amount=1},
-      {name="iron-dust", amount=2}
+      {type="item", name="bauxite-dust", amount=1},
+      {type="item", name="iron-dust", amount=2}
     },
     icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
+    subgroup = "fluid",
     order = "a[pulverising]-a[pulverise-bauxite]"
   },
   {
     type = "recipe",
     name = "pulverise-stone",
-    category = "pulverising",
+    category = "crafting-with-fluid",
     enabled = "true",
     energy_required = 400,
     ingredients =
     {
-      {name="stone", amount=1},
+      {type="item", name="stone", amount=1},
       {type="fluid", name="water", amount=5}
     },
     results=
     {
-      {name="salt", amount=1},
-      {name="lime", amount=1},
-      {name="sand", amount=1}
+      {type="item", name="salt", amount=1},
+      {type="item", name="lime", amount=1},
+      {type="item", name="sand", amount=1}
     },
     icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
+    subgroup = "fluid",
     order = "a[pulverising]-a[pulverise-stone]"
   },
   {
     type = "recipe",
     name = "pulverise-coal",
-    category = "pulverising",
+    category = "crafting-with-fluid",
     enabled = "true",
     energy_required = 400,
     ingredients =
     {
-      {name="coal", amount=1},
+      {type="item", name="coal", amount=1},
       {type="fluid", name="water", amount=5}
     },
     results=
@@ -55,6 +57,7 @@ data:extend(
       {type="fluid", name="graphite-sludge", amount=1}
     },
     icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
+    subgroup = "fluid",
     order = "a[pulverising]-a[pulverise-coal]"
   }
 })

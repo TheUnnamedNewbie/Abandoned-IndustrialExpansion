@@ -78,6 +78,7 @@ data:extend(
 		name = "rebar",
 		icon = "__IndustrialExpansion__/graphics/icons/steel-rebar.png",
 		flags = "{goes-to-main-inventory}",
+		subgroup="intermediate-products",
 		order = "f[rebar]",
 		stack_size = 100
 	},
@@ -122,16 +123,16 @@ data:extend(
 		order = "f[aluminium-hydroxide]",
 		stack_size = 100
 	},
-  {
-    type = "item",
-    name = "concrete-wall",
-    icon = "__IndustrialExpansion__/graphics/icons/concrete-wall.png",	
-    flags = {"goes-to-quickbar"},
-    subgroup = "defensive-structure",
-    order = "a[concrete-wall]-a[concrete-wall]",
-    place_result = "concrete-wall",
-    stack_size = 50
-  },
+	{
+	    type = "item",
+	    name = "concrete-wall",
+	    icon = "__IndustrialExpansion__/graphics/icons/concrete-wall.png",	
+	    flags = {"goes-to-quickbar"},
+	    subgroup = "defensive-structure",
+    	order = "a[concrete-wall]-a[concrete-wall]",
+    	place_result = "concrete-wall",
+    	stack_size = 50
+    },
 	{
 		type = "item",
 		name = "aluminium-bar",
@@ -142,35 +143,43 @@ data:extend(
 		stack_size = 50
 	},
 	{
-    type = "item",
-    name = "pulverizer",
-    icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
-    flags = {"goes-to-quickbar"},
-    subgroup = "production-machine",
-    order = "b[pulverizer]",
-    place_result = "pulverizer",
-    stack_size = 50
+	    type = "item",
+	    name = "pulverizer",
+	    icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
+	    flags = {"goes-to-quickbar"},
+	    subgroup = "production-machine",
+	    order = "b[pulverizer]",
+	    place_result = "pulverizer",
+	    stack_size = 50
   	},
   	{
-  	type = "item",
-    name = "mixer",
-    icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
-    flags = {"goes-to-quickbar"},
-    subgroup = "production-machine",
-    order = "b[mixer]",
-    place_result = "mixer",
-    stack_size = 50
+	  	type = "item",
+	    name = "mixer",
+	    icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
+	    flags = {"goes-to-quickbar"},
+	    subgroup = "production-machine",
+	    order = "b[mixer]",
+	    place_result = "mixer",
+	    stack_size = 50
 	},
 	{
-	type="item",
-	name="rotary-kiln",
-	icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
-    flags = {"goes-to-quickbar"},
-    subgroup = "production-machine",
-    order = "b[rotary-kiln]",
-    place_result = "rotary-kiln",
-    stack_size = 50
-
-}
+		type="item",
+		name="rotary-kiln",
+		icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
+	    flags = {"goes-to-quickbar"},
+	    subgroup = "production-machine",
+	    order = "b[rotary-kiln]",
+	    place_result = "rotary-kiln",
+	    stack_size = 50
+	},
+	{
+		type="item",
+		name="graphite-bar-mold",
+		icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
+	    flags = {"goes-to-quickbar"},
+	    subgroup = "intermediate",
+	    order = "b[graphite-bar-mold]",
+	    stack_size = 50
+	}
 }
 )

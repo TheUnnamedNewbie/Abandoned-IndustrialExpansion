@@ -76,7 +76,7 @@ data:extend(
 	{
 		type = "item",
 		name = "rebar",
-		icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
+		icon = "__IndustrialExpansion__/graphics/icons/steel-rebar.png",
 		flags = "{goes-to-main-inventory}",
 		order = "f[rebar]",
 		stack_size = 100
@@ -112,7 +112,8 @@ data:extend(
 		flags = "{goes-to-main-inventory}",
 		order = "f[silicon-carbide]",
 		stack_size = 100
-	},{
+	},
+	{
 		type = "item",
 		name = "aluminium-hydroxide",
 		icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
@@ -131,7 +132,6 @@ data:extend(
     place_result = "concrete-wall",
     stack_size = 50
   	},
-
 	{
 		type = "item",
 		name = "aluminium-bar",

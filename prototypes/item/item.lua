@@ -112,7 +112,8 @@ data:extend(
 		flags = "{goes-to-main-inventory}",
 		order = "f[silicon-carbide]",
 		stack_size = 100
-	},{
+	},
+	{
 		type = "item",
 		name = "aluminium-hydroxide",
 		icon = "__IndustrialExpansion__/graphics/icons/aluminium-bar.png",
@@ -121,7 +122,7 @@ data:extend(
 		order = "f[aluminium-hydroxide]",
 		stack_size = 100
 	},
-  	{
+  {
     type = "item",
     name = "concrete-wall",
     icon = "__IndustrialExpansion__/graphics/icons/aluminium-bar.png",
@@ -130,8 +131,7 @@ data:extend(
     order = "a[concrete-wall]-a[concrete-wall]",
     place_result = "concrete-wall",
     stack_size = 50
-  	},
-
+  },
 	{
 		type = "item",
 		name = "aluminium-bar",
@@ -140,6 +140,16 @@ data:extend(
     	subgroup = "raw-material",
 		order = "f[aluminium-bar]",
 		stack_size = 50
-	}
+	},
+	{
+    type = "item",
+    name = "pulverizer",
+    icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "production-machine",
+    order = "b[pulverizer]",
+    place_result = "pulverizer",
+    stack_size = 50
+  }
 }
 )

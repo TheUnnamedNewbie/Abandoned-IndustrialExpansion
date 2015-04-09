@@ -3,7 +3,7 @@ data:extend(
   {
     type = "recipe",
     name = "pulverise-bauxite",
-    category = "crafting-with-fluid",
+    category = "pulverising",
     enabled = "true",
     energy_required = 400,
     ingredients =
@@ -23,7 +23,7 @@ data:extend(
   {
     type = "recipe",
     name = "pulverise-stone",
-    category = "crafting-with-fluid",
+    category = "pulverising",
     enabled = "true",
     energy_required = 400,
     ingredients =
@@ -44,7 +44,7 @@ data:extend(
   {
     type = "recipe",
     name = "pulverise-coal",
-    category = "crafting-with-fluid",
+    category = "pulverising",
     enabled = "true",
     energy_required = 400,
     ingredients =

@@ -3,7 +3,7 @@ data:extend(
 	{
     type = "wall",
     name = "concrete-wall",
-    icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
+    icon = "__IndustrialExpansion__/graphics/icons/concrete-wall.png",
     flags = {"placeable-neutral", "player-creation"},
     collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},

@@ -125,7 +125,7 @@ data:extend(
   {
     type = "item",
     name = "concrete-wall",
-    icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",	
+    icon = "__IndustrialExpansion__/graphics/icons/concrete-wall.png",	
     flags = {"goes-to-quickbar"},
     subgroup = "defensive-structure",
     order = "a[concrete-wall]-a[concrete-wall]",

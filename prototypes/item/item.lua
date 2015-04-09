@@ -11,7 +11,7 @@ data:extend(
 	{
 		type = "item",
 		name = "bauxite-dust",
-		icon = "" STUFF GOES HERE
+		icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
 		flags = {"goes-to-main-inventory"},
 		order = "f[bauxite-dust]",
 		stack_size = 100
@@ -20,7 +20,7 @@ data:extend(
 	{
 		type = "item",
 		name = "iron-dust",
-		icon = "" STUFF GOES HERE
+		icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
 		flags = "{goes-to-main-inventory}",
 		order = "f[iron-dust]",
 		stack_size = 100
@@ -28,7 +28,7 @@ data:extend(
 	{
 		type = "item",
 		name = "salt",
-		icon = ""
+		icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
 		flags = "{goes-to-main-inventory}",
 		order = "f[salt]",
 		stack_size = 100
@@ -36,7 +36,7 @@ data:extend(
 	{
 		type = "item",
 		name = "lime",
-		icon = ""
+		icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
 		flags = "{goes-to-main-inventory}",
 		order = "f[lime]",
 		stack_size = 100
@@ -44,7 +44,7 @@ data:extend(
 	{
 		type = "item",
 		name = "sand",
-		icon = ""
+		icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
 		flags = "{goes-to-main-inventory}",
 		order = "f[sand]",
 		stack_size = 100
@@ -52,7 +52,7 @@ data:extend(
 	{
 		type = "item",
 		name = "sodium",
-		icon = ""
+		icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
 		flags = "{goes-to-main-inventory}",
 		order = "f[sodium]",
 		stack_size = 100
@@ -60,7 +60,7 @@ data:extend(
 	{
 		type = "item",
 		name = "cokes",
-		icon = ""
+		icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
 		flags = "{goes-to-main-inventory}",
 		order = "f[cokes]",
 		stack_size = 100
@@ -68,7 +68,7 @@ data:extend(
 	{
 		type = "item",
 		name = "cement",
-		icon = ""
+		icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
 		flags = "{goes-to-main-inventory}",
 		order = "f[cement]",
 		stack_size = 100
@@ -76,23 +76,15 @@ data:extend(
 	{
 		type = "item",
 		name = "alumina",
-		icon = ""
+		icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
 		flags = "{goes-to-main-inventory}",
 		order = "f[alumina]",
 		stack_size = 100
 	},
 	{
 		type = "item",
-		name = "concrete",
-		icon = ""
-		flags = "{goes-to-main-inventory}",
-		order = "f[concrete]",
-		stack_size = 100
-	},	
-	{
-		type = "item",
 		name = "rebar",
-		icon = ""
+		icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
 		flags = "{goes-to-main-inventory}",
 		order = "f[rebar]",
 		stack_size = 100
@@ -100,7 +92,7 @@ data:extend(
 	{
 		type = "item",
 		name = "graphite-bar",
-		icon = ""
+		icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
 		flags = "{goes-to-main-inventory}",
 		order = "f[graphite-bar]",
 		stack_size = 100
@@ -108,9 +100,25 @@ data:extend(
 	{
 		type = "item",
 		name = "sodium",
-		icon = ""
+		icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
 		flags = "{goes-to-main-inventory}",
 		order = "f[sodium]",
+		stack_size = 100
+	},
+	{
+		type = "item",
+		name = "silicon",
+		icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
+		flags = "{goes-to-main-inventory}",
+		order = "f[silicon]",
+		stack_size = 100
+	},
+	{
+		type = "item",
+		name = "silicon-carbide",
+		icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
+		flags = "{goes-to-main-inventory}",
+		order = "f[silicon-carbide]",
 		stack_size = 100
 	},
 	{

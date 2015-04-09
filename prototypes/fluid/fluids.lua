@@ -8,7 +8,7 @@ data:extend(
     base_color = {r=0, g=0, b=0},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "",
+    icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-b[graphite-sludge]"
@@ -21,7 +21,7 @@ data:extend(
     base_color = {r=0, g=0, b=0},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__base__/graphics/icons/fluid/crude-oil.png",
+    icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.1,
     order = "a[fluid]-b[chloride-gas]"
@@ -34,7 +34,7 @@ data:extend(
     base_color = {r=0, g=0, b=0},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__base__/graphics/icons/fluid/crude-oil.png",
+    icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-b[sodium-hydroxide]"
@@ -46,7 +46,7 @@ data:extend(
     base_color = {r=0, g=0, b=0},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__base__/graphics/icons/fluid/crude-oil.png",
+    icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-b[hydrogen-gas]"
@@ -59,7 +59,7 @@ data:extend(
     base_color = {r=0, g=0, b=0},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__base__/graphics/icons/fluid/crude-oil.png",
+    icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-b[sodium-alumate]"
@@ -72,7 +72,7 @@ data:extend(
     base_color = {r=0, g=0, b=0},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__base__/graphics/icons/fluid/crude-oil.png",
+    icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-b[concrete]"
@@ -85,7 +85,7 @@ data:extend(
     base_color = {r=0, g=0, b=0},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
-    icon = "__base__/graphics/icons/fluid/crude-oil.png",
+    icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     order = "a[fluid]-b[hydrochloric-acid]"

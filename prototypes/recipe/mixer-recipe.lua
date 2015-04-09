@@ -10,7 +10,8 @@ data:extend(
     {	
       {type="item", name="cement", amount=2},
       {type="fluid", name="water", amount=1},
-      {tyep="item", name="sand", amount=3}
+      {type="item", name="sand", amount=3},
+      {type="item", name="stone", amount=1}
     },
     results=
     {
@@ -30,7 +31,7 @@ data:extend(
     {	
       {type="item", name="bauxite-dust", amount=1},
       {type="fluid", name="sodium-hydroxide", amount=1},
-      {tyep="item", name="lime", amount=1}
+      {type="item", name="lime", amount=1}
     },
     results=
     {

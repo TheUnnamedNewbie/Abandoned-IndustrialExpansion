@@ -9,7 +9,7 @@ data:extend(
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
     minable = {mining_time = 1, result = "concrete-wall"},
     fast_replaceable_group = "wall",
-    max_health = 350,
+    max_health = 750,
     repair_speed_modifier = 2,
     corpse = "wall-remnants",
     repair_sound = { filename = "__base__/sound/manual-repair-simple.ogg" },
@@ -264,7 +264,7 @@ data:extend(
             shift = {0.078125, -0.15625}
           },
           {
-            filename = "__IndustrialExpansion__/graphics/entity/concrete-wall/concrete-wall-ending-right-shadow.png",--"__base__/graphics/entity/stone-wall/wall-ending-right-shadow.png",
+            filename = "__IndustrialExpansion__/graphics/entity/concrete-wall/wall-ending-right-shadow.png",--"__base__/graphics/entity/stone-wall/wall-ending-right-shadow.png",
             priority = "extra-high",
             width = 53,
             height = 32,

@@ -51,14 +51,6 @@ data:extend(
 	},
 	{
 		type = "item",
-		name = "sodium",
-		icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
-		flags = "{goes-to-main-inventory}",
-		order = "f[sodium]",
-		stack_size = 100
-	},
-	{
-		type = "item",
 		name = "cokes",
 		icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
 		flags = "{goes-to-main-inventory}",
@@ -121,6 +113,7 @@ data:extend(
 		order = "f[silicon-carbide]",
 		stack_size = 100
 	},
+
 	{
 		type = "item",
 		name = "aluminium-bar",

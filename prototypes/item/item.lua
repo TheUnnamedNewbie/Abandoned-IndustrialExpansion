@@ -6,14 +6,119 @@ data:extend(
 		icon = "__IndustrialExpansion__/graphics/icons/bauxite-ore.png",
 		flags = {"goes-to-main-inventory"},
 		order = "f[bauxite]",
-		stack_size = 75
+		stack_size = 100
+	},
+	{
+		type = "item",
+		name = "bauxite-dust",
+		icon = "" STUFF GOES HERE
+		flags = {"goes-to-main-inventory"},
+		order = "f[bauxite-dust]",
+		stack_size = 100
+
+	},
+	{
+		type = "item",
+		name = "iron-dust",
+		icon = "" STUFF GOES HERE
+		flags = "{goes-to-main-inventory}",
+		order = "f[iron-dust]",
+		stack_size = 100
+	},
+	{
+		type = "item",
+		name = "salt",
+		icon = ""
+		flags = "{goes-to-main-inventory}",
+		order = "f[salt]",
+		stack_size = 100
+	},
+	{
+		type = "item",
+		name = "lime",
+		icon = ""
+		flags = "{goes-to-main-inventory}",
+		order = "f[lime]",
+		stack_size = 100
+	},
+	{
+		type = "item",
+		name = "sand",
+		icon = ""
+		flags = "{goes-to-main-inventory}",
+		order = "f[sand]",
+		stack_size = 100
+	},
+	{
+		type = "item",
+		name = "sodium",
+		icon = ""
+		flags = "{goes-to-main-inventory}",
+		order = "f[sodium]",
+		stack_size = 100
+	},
+	{
+		type = "item",
+		name = "cokes",
+		icon = ""
+		flags = "{goes-to-main-inventory}",
+		order = "f[cokes]",
+		stack_size = 100
+	},
+	{
+		type = "item",
+		name = "cement",
+		icon = ""
+		flags = "{goes-to-main-inventory}",
+		order = "f[cement]",
+		stack_size = 100
+	},
+	{
+		type = "item",
+		name = "alumina",
+		icon = ""
+		flags = "{goes-to-main-inventory}",
+		order = "f[alumina]",
+		stack_size = 100
+	},
+	{
+		type = "item",
+		name = "concrete",
+		icon = ""
+		flags = "{goes-to-main-inventory}",
+		order = "f[concrete]",
+		stack_size = 100
+	},	
+	{
+		type = "item",
+		name = "rebar",
+		icon = ""
+		flags = "{goes-to-main-inventory}",
+		order = "f[rebar]",
+		stack_size = 100
+	},
+	{
+		type = "item",
+		name = "graphite-bar",
+		icon = ""
+		flags = "{goes-to-main-inventory}",
+		order = "f[graphite-bar]",
+		stack_size = 100
+	},
+	{
+		type = "item",
+		name = "sodium",
+		icon = ""
+		flags = "{goes-to-main-inventory}",
+		order = "f[sodium]",
+		stack_size = 100
 	},
 	{
 		type = "item",
 		name = "aluminium-bar",
 		icon = "__IndustrialExpansion__/graphics/icons/aluminium-bar.png",
-    flags = {"goes-to-main-inventory"},
-    subgroup = "raw-material",
+    	flags = {"goes-to-main-inventory"},
+    	subgroup = "raw-material",
 		order = "f[aluminium-bar]",
 		stack_size = 50
 	}

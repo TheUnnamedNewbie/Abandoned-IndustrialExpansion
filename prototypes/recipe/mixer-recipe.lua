@@ -5,7 +5,7 @@ data:extend(
     name = "concrete",
     category = "mixing",
     enabled = "true",
-    energy_required = 400,
+    energy_required = 5,
     ingredients =
     {	
       {type="item", name="cement", amount=2},
@@ -26,7 +26,7 @@ data:extend(
     name = "sodium-alumate",
     category = "mixing",
     enabled = "true",
-    energy_required = 400,
+    energy_required = 5,
     ingredients =
     {	
       {type="item", name="bauxite-dust", amount=1},

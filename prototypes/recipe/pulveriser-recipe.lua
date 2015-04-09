@@ -5,7 +5,7 @@ data:extend(
     name = "pulverise-bauxite",
     category = "pulverising",
     enabled = "true",
-    energy_required = 400,
+    energy_required = 5,
     ingredients =
     {
       {type="item", name="bauxite-ore", amount=1},
@@ -25,7 +25,7 @@ data:extend(
     name = "pulverise-stone",
     category = "pulverising",
     enabled = "true",
-    energy_required = 400,
+    energy_required = 5,
     ingredients =
     {
       {type="item", name="stone", amount=1},
@@ -46,7 +46,7 @@ data:extend(
     name = "pulverise-coal",
     category = "pulverising",
     enabled = "true",
-    energy_required = 400,
+    energy_required = 5,
     ingredients =
     {
       {type="item", name="coal", amount=1},

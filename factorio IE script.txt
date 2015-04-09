@@ -22,15 +22,40 @@ IEresources = function()
 	game.player.insert{name="silicon-carbide", count=100}; 
 	game.player.insert{name="aluminium-hydroxide", count=50}; 
 	game.player.insert{name="aluminium-bar", count=50}; 
-	game.player.insert{name=
 end; 
 
 IEitems = function() 
 	game.player.insert{name="pulverizer", count=10}; 
 	game.player.insert{name="concrete-wall", count=50}; 
+	game.player.insert{name="mixer", count=10}; 
 end; 
 
 IEall = function() 
 	IEresources(); 
 	IEitems(); 
-end
+end; 
+
+BASEpiping = function() 
+	game.player.insert{name="pipe", count=100};
+	game.player.insert{name="pipe-to-ground", count=50}; 
+	game.player.insert{name="offshore-pump", count=10}; 
+end; 
+
+BASEpower = function() 
+	game.player.insert{name="boiler", count=10}; 
+	game.player.insert{name="coal", count=500}; 
+	game.player.insert{name="steam-engine", count=10}; 
+	game.player.insert{name="small-electric-pole", count=50}; 
+	game.player.insert{name="medium-electric-pole", count=50}; 
+	game.player.insert{name="big-electric-pole", count=50}; 
+end; 
+
+BASEall = function() 
+	BASEpiping(); 
+	BASEpower(); 
+end; 
+
+all = function() 
+	IEall(); 
+	BASEall(); 
+end; 

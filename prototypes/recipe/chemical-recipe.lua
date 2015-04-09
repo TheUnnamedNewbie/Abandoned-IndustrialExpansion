@@ -54,7 +54,7 @@ data:extend(
       {type="fluid", name="hydrochloric-acid", amount=2}
     },
     icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
-    subgroup = "fluid"
+    subgroup = "fluid"  
   },
   {
     type = "recipe",

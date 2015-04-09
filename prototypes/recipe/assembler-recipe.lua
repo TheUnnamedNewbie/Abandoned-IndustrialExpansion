@@ -24,6 +24,7 @@ data:extend(
       {type="fluid", name="concrete", amount=5}
     },
     result = "concrete-wall"
-  }
+  },
+  
 }
 )

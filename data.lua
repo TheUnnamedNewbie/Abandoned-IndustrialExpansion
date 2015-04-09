@@ -9,7 +9,7 @@ require("prototypes.categories.recipe-category")
 require("prototypes.recipe.mixer-recipe")
 require("prototypes.recipe.chemical-recipe")
 require("prototypes.recipe.pulveriser-recipe")
-
+require("prototypes.recipe.rotary-kiln-recipe")
 require("prototypes.autoplace-controls")
 
 require("prototypes.tile.noise-layers")

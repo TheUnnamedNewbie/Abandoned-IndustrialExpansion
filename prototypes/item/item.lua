@@ -150,16 +150,25 @@ data:extend(
     order = "b[pulverizer]",
     place_result = "pulverizer",
     stack_size = 50
-  },
-  {
-
-  type = "item",
+  	},
+  	{
+  	type = "item",
     name = "mixer",
     icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
     flags = {"goes-to-quickbar"},
     subgroup = "production-machine",
     order = "b[mixer]",
     place_result = "mixer",
+    stack_size = 50
+	},
+	{
+	type="item",
+	name="rotary-kiln",
+	icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "production-machine",
+    order = "b[rotary-kiln]",
+    place_result = "rotary-kiln",
     stack_size = 50
 
 }

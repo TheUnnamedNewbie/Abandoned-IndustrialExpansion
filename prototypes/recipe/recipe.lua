@@ -22,7 +22,7 @@ data:extend(
       {"iron-gear-wheel", 6},
       {"steel-plate", 2},
       {"electronic-circuit", 3},
-      {"electric-engine", 1}
+      {"electric-engine-unit", 1}
   },
   result = "mixer"
 }

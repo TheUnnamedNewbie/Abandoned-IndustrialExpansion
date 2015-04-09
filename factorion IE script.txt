@@ -22,6 +22,7 @@ IEresources = function()
 	game.player.insert{name="silicon-carbide", count=100}; 
 	game.player.insert{name="aluminium-hydroxide", count=50}; 
 	game.player.insert{name="aluminium-bar", count=50}; 
+	game.player.insert{name=
 end; 
 
 IEitems = function() 

@@ -1,6 +1,7 @@
 require("prototypes.entity.resources")
 require("prototypes.item.item")
-
+require("prototypes.fluid.fluids")
+require("prototypes.recipe.assembler-recipe")
 require("prototypes.recipe.smeltingRecipe")
 
 require("prototypes.autoplace-controls")

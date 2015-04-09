@@ -9,14 +9,15 @@ data:extend(
     ingredients =
     {
       {type="fluid", name="water", amount=1},
-      {name="salt", amount=2}
+      {type="item", name="salt", amount=2}
     },
     results=
     {
       {type="fluid", name="chloride-gas", amount=1},
-      {name="sodium", amount=2}
+      {type="item", name="sodium", amount=2}
     },
-    icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png"
+    icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
+    subgroup = "fluid"
   },
   {
     type = "recipe",
@@ -27,14 +28,15 @@ data:extend(
     ingredients =
     {
       {type="fluid", name="water", amount=1},
-      {name="sodium", amount=1}
+      {type="item", name="sodium", amount=1}
     },
     results=
     {
       {type="fluid", name="hydrogen-gas", amount=1},
-      {name="sodium-hydroxide", amount=1}
+      {type="fluid", name="sodium-hydroxide", amount=1}
     },
-    icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png"
+    icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
+    subgroup = "fluid"
   },
   {
     type = "recipe",
@@ -51,7 +53,8 @@ data:extend(
     {
       {type="fluid", name="hydrochloric-acid", amount=2}
     },
-    icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png"
+    icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
+    subgroup = "fluid"
   },
   {
     type = "recipe",
@@ -61,13 +64,14 @@ data:extend(
     energy_required = 5,
     ingredients =
     {
-      {name="sodium-alumate", amount=1},
+      {type="fluid", name="sodium-alumate", amount=1},
       {type="fluid", name="water", amount=1}
     },
     results=
     {
-      {name="aluminium-hydroxide", amount=1}
+      {type="item", name="aluminium-hydroxide", amount=1}
     },
-    icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png"
+    icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
+    subgroup = "fluid"
   }
 })

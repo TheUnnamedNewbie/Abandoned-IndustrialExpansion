@@ -115,7 +115,7 @@ data:extend(
 	},{
 		type = "item",
 		name = "aluminium-hydroxide",
-		icon = "__IndustrialExpansion__/graphics/icons/aluminium-bar.png",
+		icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
     	flags = {"goes-to-main-inventory"},
     	subgroup = "raw-material",
 		order = "f[aluminium-hydroxide]",
@@ -124,7 +124,7 @@ data:extend(
   	{
     type = "item",
     name = "concrete-wall",
-    icon = "__IndustrialExpansion__/graphics/icons/aluminium-bar.png",
+    icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",	
     flags = {"goes-to-quickbar"},
     subgroup = "defensive-structure",
     order = "a[concrete-wall]-a[concrete-wall]",

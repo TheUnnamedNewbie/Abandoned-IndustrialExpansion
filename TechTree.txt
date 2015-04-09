@@ -13,7 +13,7 @@ Tech Trees
 			Salt + water -> Chloride (Cl2) + Sodium (2Na)  --- Could in time turn this into a downs cell.
 			Sodium + Water -> NaOH + H2
 			H2 + Cl2 -> HCl
-			Sodium Alumate + Al(OH)3 + Water -> Aluminium Hydroxide
+			Sodium Alumate + Al(OH)3 (In ideal world, this does not get used up in the reaction) + Water -> Aluminium Hydroxide
 			
 	
 

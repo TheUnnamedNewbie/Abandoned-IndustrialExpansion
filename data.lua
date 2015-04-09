@@ -3,7 +3,7 @@ require("prototypes.item.item")
 require("prototypes.fluid.fluids")
 require("prototypes.recipe.assembler-recipe")
 require("prototypes.recipe.smeltingRecipe")
-
+require("prototypes.entity.wall")
 require("prototypes.autoplace-controls")
 
 require("prototypes.tile.noise-layers")

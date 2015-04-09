@@ -121,6 +121,16 @@ data:extend(
 		order = "f[aluminium-hydroxide]",
 		stack_size = 100
 	},
+  	{
+    type = "item",
+    name = "concrete-wall",
+    icon = "__IndustrialExpansion__/graphics/icons/aluminium-bar.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "defensive-structure",
+    order = "a[concrete-wall]-a[concrete-wall]",
+    place_result = "concrete-wall",
+    stack_size = 50
+  	},
 
 	{
 		type = "item",

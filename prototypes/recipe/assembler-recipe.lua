@@ -14,7 +14,7 @@ data:extend(
   },
   {
     type = "recipe",
-    category = "advanced-crafting",
+    category = "crafting-with-fluid",
     name = "concrete-wall",
     enabled = "true",
     energy_required = 10,
@@ -23,7 +23,7 @@ data:extend(
       {"rebar", 2},
       {type="fluid", name="concrete", amount=5}
     },
-    result = "rebar"
+    result = "concrete-wall"
   }
 }
 )

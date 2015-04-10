@@ -78,7 +78,7 @@ data:extend(
 		name = "rebar",
 		icon = "__IndustrialExpansion__/graphics/icons/steel-rebar.png",
 		flags = "{goes-to-main-inventory}",
-		subgroup="intermediate-products",
+		subgroup="intermediate-product",
 		order = "f[rebar]",
 		stack_size = 100
 	},
@@ -177,7 +177,7 @@ data:extend(
 		name="graphite-bar-mold",
 		icon = "__IndustrialExpansion__/graphics/icons/MissingIconDemo.png",
 	    flags = {"goes-to-quickbar"},
-	    subgroup = "intermediate",
+	    subgroup = "intermediate-product",
 	    order = "b[graphite-bar-mold]",
 	    stack_size = 50
 	}
